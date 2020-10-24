@@ -1,0 +1,100 @@
+body {
+    background: #CCCCCC;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+#wrapper {
+    width: 980px;
+    margin: 10px auto;
+    padding:15px;
+    background: #FFFFFF;
+}
+#header {
+    background: #C51417;
+    width: 980px;
+    margin: 0 auto 15px;
+    padding: 0;
+    overflow: hidden;
+}
+#logo {
+    float: left;
+}
+#slogan {
+    height: 40px;
+    margin: 0 0 15px;
+    padding: 10px;
+    float: right;
+    color: white;
+}
+#list {
+    background: #333333;
+    margin: 0 0 15px;
+    padding: 10px;
+}
+#list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#list ul li {
+    display: inline-block;
+    position: relative;
+}
+#list ul li a {
+    padding: 10px;
+    height: 20px;
+    display: block;
+}
+#list ul li a:link,
+#list ul li a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#list ul li a:hover {
+    color: #FF9900;
+}
+#list ul li a:active {
+    color: #C51417;
+}
+#central {
+    overflow: hidden;
+}
+#main {
+    float: left;
+    width: 660px;
+    margin: 0 0 15px;
+    padding: 15px;
+}
+#sidebar {
+    float: right;
+    width: 250px;
+    margin: 0 0 15px;
+    padding: 15px;
+}
+.block {
+    margin-bottom: 30px;
+}
+.block a:link,
+.block a:visited {
+    color: #C51417;
+    text-decoration: none;
+}
+.block a:hover {
+    color: #FF9900;
+}
+#list ul li a:active {
+    color: black;
+}
+#footer {
+    background: #333333;
+    color: #FFFFFF;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+}
+#footer p {
+    margin: 0px;
+}
